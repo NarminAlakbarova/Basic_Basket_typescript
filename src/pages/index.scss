@@ -1,0 +1,111 @@
+nav {
+  background-color: #b4d193;
+  margin-bottom: 50px;
+  a {
+    color: black;
+    font-size: 24px;
+    position: relative;
+    color: white;
+
+    .count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -10px;
+      right: -15px;
+      background-color: #7777;
+      height: 20px;
+      width: 20px;
+      font-size: 16px;
+      border-radius: 50%;
+    }
+  }
+}
+
+#home {
+  .home {
+    .card {
+      .img {
+        width: 100%;
+        height: 350px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #b4d193;
+        .icon {
+          background-color: transparent;
+          border: none;
+          svg {
+            font-size: 24px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+#basket {
+  .basket {
+    .all-cards {
+      overflow-y: scroll;
+      height: 390px;
+   
+    }
+    .card {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 30px;
+      @media only screen and (max-width:561px){
+        flex-direction: column;
+      }
+      .content {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        .counter {
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+          column-gap: 15px;
+          button {
+            border: none;
+          }
+          svg {
+            cursor: pointer;
+          }
+        }
+        button{
+          border: none;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        svg {
+          color:#598b1f ;
+          font-size: 18px;
+        }
+      
+      }
+    }
+  }
+}

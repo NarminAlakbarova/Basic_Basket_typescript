@@ -1,0 +1,20 @@
+*{
+    text-decoration: none !important;
+    list-style: none ;
+}
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #B4D193;
+  }
+  
+  p{
+    margin: 0;
+  }
